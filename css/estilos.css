@@ -70,9 +70,13 @@ a {
 	margin: 15px;
 	border:  5px solid #0b1e54;
 	box-sizing: border-box;
-	width: 47%;
+	width: 30%;
 	float: left;
 	position: relative;
+
+}
+.caja1{
+	transform: rotate(20deg);
 }
 .caja2 {
 
@@ -80,8 +84,11 @@ a {
 	margin: 15px;
 	border:  5px solid #0b1e54;
 	box-sizing: border-box;
-	width: 47%;
+	width: 30%;
 	float: right;
+}
+.caja2{
+	transform: rotate(20deg);
 }
 .caja3 {
 	padding: 20px;
@@ -99,6 +106,7 @@ a {
 	width: 47%;
 	float: right;
 }
+
 .caja1, .caja2, .caja3, .caja4{
 	background: #e82323;
 	border-radius: 20px;
@@ -210,4 +218,58 @@ a {
 	justify-content: center;
 }
 
+}
+
+#aplicandohover{
+	background-color: #a8a032;
+}
+
+#aplicandohover:hover{
+	background-color: #3250a8;
+	color: #a832a8;
+
+}
+@keyframes bolita{
+	0%{
+		top: 0;
+	}
+	25%{
+		top:  25%;
+	}
+
+	50%{
+		top: 50%;
+	}
+	75%{
+		top: 75%;
+	}
+	85%{
+		top: 85%;
+	}
+	100%{
+		top: 0;
+	}
+
+}
+.animacioncaja{
+	height: 700px;
+	width: 50%;
+	float: auto;
+	margin-top: 30px;
+	background: #a86032;
+}
+.pelota{
+	position: sticky;
+	left: 50%;
+	border-radius: 100%;
+	background: red;
+	height: 70px;
+	width: 70px;
+	animation-name: bolita;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-duration: 5s;
+	animation-delay: 2s;
+
+	
 }
