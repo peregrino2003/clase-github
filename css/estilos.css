@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Praise&display=swap');
+* {
+	margin: 0;
+	padding: 0 ;
+}
+
+body {
+	background-color: rgb(125, 111, 108);
+}
+
+/*inicio del header*/
+#contenedor{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 2rem;
+	
+}
+	
+.logo{
+	display: grid;
+	justify-content: center;
+
+}
+.cabeza{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.presentacion{
+	display: grid;
+}
+/*flexbox*/
+.cajaflex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+}
+.pie{
+	display: grid; 
+	justify-content: center;
+}
+.cabeza ul li {
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	padding: 10px;
+	margin: 10px;
+}
+a {
+	color: #04f941;
+	text-decoration: none;
+}
+/*inicio del cuerpo principaldel*/
+.presentacion{
+	width: 350px;
+	height: 200px;
+	margin: auto;
+}
+.presentacion p {
+	font-family: 'Bebas Neue', cursive;
+	color: #04f941;
+}
+.caja1 {
+	padding: 20px;
+	margin: 15px;
+	border:  5px solid #0b1e54;
+	box-sizing: border-box;
+	width: 47%;
+	float: left;
+	position: relative;
+}
+.caja2 {
+
+	padding: 20px;
+	margin: 15px;
+	border:  5px solid #0b1e54;
+	box-sizing: border-box;
+	width: 47%;
+	float: right;
+}
+.caja3 {
+	padding: 20px;
+	margin: 15px;
+	border:  5px solid #0b1e54;
+	box-sizing: border-box;
+	width: 47%;
+	float: left;
+}
+.caja4 {
+	padding: 20px;
+	margin: 15px;
+	border:  5px solid #0b1e54;
+	box-sizing: border-box;
+	width: 47%;
+	float: right;
+}
+.caja1, .caja2, .caja3, .caja4{
+	background: #e82323;
+	border-radius: 20px;
+}
+/*inicio del footer*/
+.pie ul li {
+	
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	padding: 10px;
+	margin: 10px;
+	position: ;
+}
+
+ .papas { 	
+ 	background-image: url("../imagenes/papas fritas.jpg");
+  	background-position: center;
+ 	background-size: cover;
+ 	background-image: fixed;
+ 	border-top: 10px solid #72e817;
+ 	border-right: 10px solid #72e817;
+ 	border-bottom: 10px solid #72e817;
+ 	border-left: 10px solid #72e817;
+ 	height: 100vh;
+ 	
+ }
+ 
+ 
+ .vino {
+ 	height: 100vh;
+ 	background-image: url("../imagenes/vino.jpg");
+ 	background-position: center;
+ 	background-size: cover;
+ 	border-top: 10px solid #72e817;
+ 	border-right: 10px solid #72e817;
+ 	border-bottom: 10px solid #72e817;
+ 	border-left: 10px solid #72e817;
+ }
+ .postre {
+ 	height: 100vh;
+ 	background-image: url("../imagenes/cheesecak.jpg");
+ 	background-position: center;
+ 	background-size: cover;
+ 	border-top: 10px solid #72e817;
+ 	border-right: 10px solid #72e817;
+ 	border-bottom: 10px solid #72e817;
+ 	border-left: 10px solid #72e817;
+ }
+
+ .carne {
+ 	height: 100vh;
+ 	background-image: url("../imagenes/entraña.jpg");
+ 	background-position: center;
+ 	background-size: cover;
+ 	border-top: 10px solid #72e817;
+ 	border-right: 10px solid #72e817;
+ 	border-bottom: 10px solid #72e817;
+ 	border-left: 10px solid #72e817;
+ }
+ .formulario {
+ 	padding-bottom: 15px;
+ }
+ 
+.formulario p {
+	font-family: 'Bebas Neue', cursive;
+	color: #04f941;
+}
+
+.mapa {
+	 width: 600px;
+	 height: 600px;
+	 margin: auto;
+}
+/*mobile first*/
+@media all an (min-width:  768px){
+	#contenedor{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 2rem;
+	
+}
+	
+.logo{
+	display: grid;
+	justify-content: center;
+
+}
+.cabeza{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.presentacion{
+	display: grid;
+}
+/*flexbox*/
+.cajaflex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+}
+.pie{
+	display: grid; 
+	justify-content: center;
+}
+
+}

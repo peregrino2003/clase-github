@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#contenedor{
+	display: grid;
+	grid-template-areas: 
+	".cara." 
+	"header header header" 
+	".pres."
+	"im im im im";
+	height: 100vh;	
+}
+.logo{
+	background: grey;
+	grid-area: cara;
+}
+.header{
+	grid-area: header;
+}
+.imagen{
+
+}
+
+
